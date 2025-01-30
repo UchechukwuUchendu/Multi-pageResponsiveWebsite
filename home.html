@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <!--navbar-->
+      <nav class="navbar">  
+        <p class="logo">
+            <b>HubLead</b>
+        </p>
+        <ul class="nav links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Property Types</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Area or Postcode">
+            <button class="search-button">
+                Search <i class="fas fa-search"></i>
+            </button>
+        </div>
+      </nav>  
+    </header>
+    <main>
+        <!--banner-->
+        <section class="banner-container">
+            <div class="banner-slide">
+                <img src="/images/luxury office.jpg" alt="Luxury Offices">
+                <img src="/images/family homes.jpg" alt="Family Homes">
+                <img src="/images/student accommodation.jpg" alt="Student Accommodations">
+                <img src="/images/vacation spots.jpg" alt="Vacation Spots">
+            </div>
+            <div class="banner-caption" data-index="0">Luxury Offices</div>
+            <div class="banner-caption" data-index="1">Family Homes</div>
+            <div class="banner-caption" data-index="2">Student Accommodations</div>
+            <div class="banner-caption" data-index="3">Vacation Spots</div>
+        </section>
+        <!--Products-->
+            <h1 class="title">Property Types</h1>
+        <section class="property">
+            <div class="property-container">
+                <div class="property-image">
+                    <a href="html/service.html"><img src="/images/office complex.jpeg"></a>
+                    <p class="property-name">office complex</p>
+                    <p class="description">Safe and spacious</p>
+                    <label for="Tenancy Option"></label>
+                    <select name="Tenancy Option" id="Tenancy Option">
+                        <option value="Choose">Choice your option...</option>
+                        <option value="Rent">Rent</option>
+                        <option value="Buy">Buy</option>
+                    </select>
+                </div>                
+                <div class="property-image">
+                    <a href="html/service.html"><img src="/images/Retail shops.jpeg"></a>
+                    <p class="property-name">Retail Shops</p>
+                    <p class="description">Affordable and located in the city centre</p><br>
+                    <label for="Tenancy Option"></label>
+                    <select name="Tenancy Option" id="Tenancy Option">
+                        <option value="Choose">Choice your option...</option>
+                        <option value="Rent">Rent</option>
+                        <option value="Buy">Buy</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="property-container">
+                <div class="property-image">
+                    <a href="html/service.html"><img src="/images/Detached house.jpeg"></a>
+                    <p class="property-name">House</p>
+                    <p class="description">Smart with state-of-the-art facilities</p>
+                    <label for="Tenancy Option"></label>
+                    <select name="Tenancy Option" id="Tenancy Option">
+                        <option value="Choose">Choice your option...</option>
+                        <option value="Rent">Rent</option>
+                        <option value="Buy">Buy</option>
+                    </select>
+                </div>
+                
+                <div class="property-image">
+                    <a href="html/service.html"><img src="/images/perfect student accommodation.jpeg"></a>
+                    <p class="property-name">Student space</p>
+                    <p class="description">student friendly environment</p>
+                    <label for="Tenancy Option"></label>
+                    <select name="Tenancy Option" id="Tenancy Option">
+                        <option value="Choose">Choice your option...</option>
+                        <option value="Rent">Rent</option>
+                        <option value="Buy">Buy</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <!--Reviews-->
+            <h1 class="title">Our Client Reviews</h1>
+        <section>
+            <div class="reviews-container">
+                <div class="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordior-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Exceptional Service and Professionalism!
+                      </button>  
+                    </h2>
+                    <div class="accordion-content">
+                      <p>⭐⭐⭐⭐⭐</p>
+                      <p>"I was impressed by their attention to detail and quick responses. They made the process of finding my dream home seamless and stress-free. Highly recommended!"</p>
+                      <h3>John (Manchester).</h3>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordior-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">  
+                        Top-Notch Property Listings!
+                      </button>  
+                    </h2>
+                    <div class="accordion-content">
+                      <p>⭐⭐⭐⭐⭐</p>
+                      <p>"Their portfolio is unmatched—luxury, family-friendly, or investment properties, they have it all. The team guided me every step of the way. Couldn't be happier!"</p>
+                      <h3>Usman (Briston).</h3>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordior-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Effortless and Transparent!
+                      </button>  
+                    </h2>
+                    <div class="accordion-content">
+                      <p>⭐⭐⭐⭐⭐</p>
+                      <p>"The team made renting my new apartment a breeze. Transparent communication, fair pricing, and excellent customer service. Truly a company you can trust."</p>
+                      <h3>Joan (London).</h3>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 HubLead Property Limited. All Rights Reserved.</p>
+        <p>
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Terms of Service</a> |
+          <a href="html/contact.html">Get in touch</a>
+        </p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
