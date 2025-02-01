@@ -4,57 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <!--navbar-->
-      <nav class="navbar">  
-        <p class="logo">
-            <b>HubLead</b>
-        </p>
-        <ul class="nav links">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Property Types</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="search-container">
-            <input type="text" class="search-input" placeholder="Area or Postcode">
-            <button class="search-button">
-                Search <i class="fas fa-search"></i>
-            </button>
-        </div>
-      </nav>  
+    <!--navbar-->    
+        <nav class="navbar">
+            <p class="logo"><b>HubLead</b></p>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Properties</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <form class="search-container">
+                <input type="text" class="search-input" placeholder="Area or Postcode">
+                <button class="search-button" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </nav>
     </header>
     <main>
+    <!--form-->
         <h1>Contact Us</h1>
         <h4>Please let us know how we may help</h4><br>
-        <section class="contact-field"></section>
+        <section class="contact-field">
         <form action="#" method="post">
-          <label for="name">Name</label><br>
+          <label for="name">Name:</label><br>
           <input type="text" id="name" name="name" required><br>
-          <label for="email">Email</label><br>  
+          <label for="email">Email:</label><br>  
           <input type="email" id="email" name="email" required><br>
-          <label for="Tenancy Option">Please select your tenancy type:</label>
-                <select name="Tenancy Option" id="Tenancy Option">
-                    <option value="Choose">Choose your option...</option>
+          <label for="Tenancy type">Please select tenancy contract:</label>  
+            <select name="Tenancy Option" id="Tenancy Option">
+                    <option value="Choose">Tenancy Option</option>
                     <option value="Rent">Rent</option>
                     <option value="Buy">Buy</option>
                     <option value="Others">Others</option>
-                </select><br>
-            <label for="Age">Please select your age:</label>
+            </select><br>
+          <label for="Age">What is your age?</label>        
             <select name="Age" id="Age">
-                <option value="Choose">Choose your age...</option>
+                <option value="Choose">Age</option>
                 <option value="Age1">18 - 24</option>
                 <option value="Age2">25 - 39</option>
                 <option value="Age3">40 - 45</option>
                 <option value="Age4">46 - 59</option>
                 <option value="Age5">60+</option>
             </select><br>
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="5" required></textarea><br>
-            <button type="submit">Submit</button> 
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea><br>
+          <button type="submit">Submit</button> 
         </form>
+        </section>
         <p>Or reach out directly:</p>
         <p>
             Email Us:
@@ -79,7 +81,5 @@
           <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>    
